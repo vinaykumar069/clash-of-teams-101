@@ -22,7 +22,7 @@ nmap -sS -A -T4 -o /home/venkat/projects/devTown/nmapscan.txt 10.63.233.95
 
 ### 1.2 Scan Results Summary
 
-Full scan results are in ![`evidence/logs/nmapscan.txt`](../evidence/logs/nmapscan.txt).
+![Nmapscan](../evidence/logs/nmapscan.txt)
 
 **Key open ports identified:**
 
@@ -117,7 +117,7 @@ ls /
 # srv  sys  tmp  usr  var  vmlinuz
 ```
 
-📸 **Screenshot:** [`evidence/screenshots/03_root_shell_ls.png`](../evidence/screenshots/03_root_shell_ls.png)
+![Root Shell](../evidence/screenshots/03_root_shell_ls.png)
 
 ### 3.3 Network Interface Verification
 
@@ -126,7 +126,7 @@ ifconfig
 # eth0: inet addr 10.63.233.95  HWaddr 08:00:27:02:c5:69
 ```
 
-📸 **Screenshot:** [`evidence/screenshots/02_network_ifconfig.png`](../evidence/screenshots/02_network_ifconfig.png)
+![Network Interface](../evidence/screenshots/02_network_ifconfig.png)
 
 ---
 
@@ -142,7 +142,7 @@ msf exploit(unix/ftp/vsftpd_234_backdoor) > exploit
 [-] Exploit completed, but no session was created.
 ```
 
-📸 **Screenshot:** [`evidence/screenshots/08_exploit_failed_after_remediation.png`](../evidence/screenshots/08_exploit_failed_after_remediation.png)
+![After remediation](../evidence/screenshots/08_exploit_failed_after_remediation.png)
 
 **Conclusion:** Remediation was fully effective. The exploit path is blocked.
 
