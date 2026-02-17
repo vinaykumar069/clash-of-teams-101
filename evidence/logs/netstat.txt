@@ -1,0 +1,41 @@
+netstat -antp
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name
+tcp        0      0 0.0.0.0:512             0.0.0.0:*               LISTEN      4466/xinetd     
+tcp        0      0 0.0.0.0:513             0.0.0.0:*               LISTEN      4466/xinetd     
+tcp        0      0 0.0.0.0:2049            0.0.0.0:*               LISTEN      -               
+tcp        0      0 0.0.0.0:33345           0.0.0.0:*               LISTEN      3663/rpc.statd  
+tcp        0      0 0.0.0.0:514             0.0.0.0:*               LISTEN      4466/xinetd     
+tcp        0      0 0.0.0.0:8009            0.0.0.0:*               LISTEN      4558/jsvc       
+tcp        0      0 0.0.0.0:6697            0.0.0.0:*               LISTEN      4614/unrealircd 
+tcp        0      0 0.0.0.0:3306            0.0.0.0:*               LISTEN      4161/mysqld     
+tcp        0      0 0.0.0.0:1099            0.0.0.0:*               LISTEN      4595/rmiregistry
+tcp        0      0 0.0.0.0:6667            0.0.0.0:*               LISTEN      4614/unrealircd 
+tcp        0      0 0.0.0.0:139             0.0.0.0:*               LISTEN      4447/smbd       
+tcp        0      0 0.0.0.0:5900            0.0.0.0:*               LISTEN      4617/Xtightvnc  
+tcp        0      0 0.0.0.0:54221           0.0.0.0:*               LISTEN      -               
+tcp        0      0 0.0.0.0:111             0.0.0.0:*               LISTEN      3647/portmap    
+tcp        0      0 0.0.0.0:6000            0.0.0.0:*               LISTEN      4617/Xtightvnc  
+tcp        0      0 0.0.0.0:80              0.0.0.0:*               LISTEN      4576/apache2    
+tcp        0      0 0.0.0.0:49905           0.0.0.0:*               LISTEN      4372/rpc.mountd 
+tcp        0      0 0.0.0.0:8787            0.0.0.0:*               LISTEN      4599/ruby       
+tcp        0      0 0.0.0.0:8180            0.0.0.0:*               LISTEN      4558/jsvc       
+tcp        0      0 0.0.0.0:1524            0.0.0.0:*               LISTEN      4466/xinetd     
+tcp        0      0 10.63.233.95:53         0.0.0.0:*               LISTEN      4015/named      
+tcp        0      0 0.0.0.0:21              0.0.0.0:*               LISTEN      4466/xinetd     
+tcp        0      0 127.0.0.1:53            0.0.0.0:*               LISTEN      4015/named      
+tcp        0      0 0.0.0.0:23              0.0.0.0:*               LISTEN      4466/xinetd     
+tcp        0      0 0.0.0.0:6200            0.0.0.0:*               LISTEN      5349/sh         
+tcp        0      0 0.0.0.0:5432            0.0.0.0:*               LISTEN      4282/postgres   
+tcp        0      0 0.0.0.0:53849           0.0.0.0:*               LISTEN      4595/rmiregistry
+tcp        0      0 0.0.0.0:25              0.0.0.0:*               LISTEN      4438/master     
+tcp        0      0 127.0.0.1:953           0.0.0.0:*               LISTEN      4015/named      
+tcp        0      0 0.0.0.0:445             0.0.0.0:*               LISTEN      4447/smbd       
+tcp        0      0 10.63.233.95:6200       10.63.233.26:38047      ESTABLISHED 5349/sh         
+tcp        0      0 10.63.233.95:1099       10.63.233.26:34866      CLOSE_WAIT  4595/rmiregistry
+tcp6       0      0 :::2121                 :::*                    LISTEN      4502/proftpd: (acce
+tcp6       0      0 :::3632                 :::*                    LISTEN      4309/distccd    
+tcp6       0      0 :::53                   :::*                    LISTEN      4015/named      
+tcp6       0      0 :::22                   :::*                    LISTEN      4198/sshd       
+tcp6       0      0 :::5432                 :::*                    LISTEN      4282/postgres   
+tcp6       0      0 ::1:953                 :::*                    LISTEN      4015/named  

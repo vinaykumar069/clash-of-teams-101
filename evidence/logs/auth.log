@@ -1,0 +1,45 @@
+cat auth.log
+Feb 17 05:36:27 metasploitable sshd[4043]: Server listening on :: port 22.
+Feb 17 05:36:27 metasploitable sshd[4043]: error: Bind to port 22 on 0.0.0.0 failed: Address already in use.
+Feb 17 05:36:27 metasploitable sshd[4043]: Received SIGHUP; restarting.
+Feb 17 05:36:27 metasploitable sshd[4198]: Server listening on :: port 22.
+Feb 17 05:36:27 metasploitable sshd[4198]: error: Bind to port 22 on 0.0.0.0 failed: Address already in use.
+Feb 17 05:36:49 metasploitable login[4712]: pam_unix(login:session): session opened for user msfadmin by LOGIN(uid=0)
+Feb 17 05:38:34 metasploitable sshd[4722]: Did not receive identification string from 10.63.233.26
+Feb 17 05:38:34 metasploitable rshd[4729]: Connection from 10.63.233.26 on illegal port
+Feb 17 05:38:40 metasploitable rlogind[4730]: Connection from 10.63.233.26 on illegal port
+Feb 17 05:38:40 metasploitable rlogind[4752]: Connection from 10.63.233.26 on illegal port
+Feb 17 05:38:40 metasploitable rlogind[4765]: Connection from 10.63.233.26 on illegal port
+Feb 17 05:38:40 metasploitable rlogind[4766]: Connection from 10.63.233.26 on illegal port
+Feb 17 05:38:40 metasploitable rlogind[4779]: Connection from 10.63.233.26 on illegal port
+Feb 17 05:38:40 metasploitable rlogind[4781]: Connection from 10.63.233.26 on illegal port
+Feb 17 05:38:46 metasploitable rshd[4805]: Connection from 10.63.233.26 on illegal port
+Feb 17 05:38:47 metasploitable sshd[4800]: Protocol major versions differ for 10.63.233.26: SSH-2.0-OpenSSH_4.7p1 Debian-8ubuntu1 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Feb 17 05:38:47 metasploitable sshd[4829]: Protocol major versions differ for 10.63.233.26: SSH-2.0-OpenSSH_4.7p1 Debian-8ubuntu1 vs. SSH-1.5-NmapNSE_1.0
+Feb 17 05:38:51 metasploitable rshd[4860]: Connection from 10.63.233.26 on illegal port
+Feb 17 05:39:01 metasploitable CRON[4886]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 17 05:39:01 metasploitable CRON[4886]: pam_unix(cron:session): session closed for user root
+Feb 17 05:55:56 metasploitable sudo: msfadmin : TTY=tty1 ; PWD=/home/msfadmin ; USER=root ; COMMAND=/bin/su
+Feb 17 05:55:56 metasploitable sudo: pam_unix(sudo:session): session opened for user root by msfadmin(uid=0)
+Feb 17 05:55:56 metasploitable sudo: pam_unix(sudo:session): session closed for user root
+Feb 17 05:55:56 metasploitable su[4945]: Successful su for root by root
+Feb 17 05:55:56 metasploitable su[4945]: + tty1 root:root
+Feb 17 05:55:56 metasploitable su[4945]: pam_unix(su:session): session opened for user root by msfadmin(uid=0)
+Feb 17 06:09:01 metasploitable CRON[5019]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 17 06:09:01 metasploitable CRON[5019]: pam_unix(cron:session): session closed for user root
+Feb 17 06:17:01 metasploitable CRON[5068]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 17 06:17:01 metasploitable CRON[5068]: pam_unix(cron:session): session closed for user root
+Feb 17 06:25:01 metasploitable CRON[5099]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 17 06:25:01 metasploitable sudo:     root : TTY=unknown ; PWD=/ ; USER=msfadmin ; COMMAND=/usr/bin/gconftool --get /system/http_proxy/use_http_proxy
+Feb 17 06:25:01 metasploitable sudo: pam_unix(sudo:session): session opened for user msfadmin by (uid=0)
+Feb 17 06:25:01 metasploitable sudo: pam_unix(sudo:session): session closed for user msfadmin
+Feb 17 06:25:01 metasploitable sudo:     root : TTY=unknown ; PWD=/ ; USER=msfadmin ; COMMAND=/usr/bin/gconftool --get /system/http_proxy/host
+Feb 17 06:25:01 metasploitable sudo: pam_unix(sudo:session): session opened for user msfadmin by (uid=0)
+Feb 17 06:25:01 metasploitable sudo: pam_unix(sudo:session): session closed for user msfadmin
+Feb 17 06:25:01 metasploitable sudo:     root : TTY=unknown ; PWD=/ ; USER=msfadmin ; COMMAND=/usr/bin/gconftool --get /system/http_proxy/port
+Feb 17 06:25:01 metasploitable sudo: pam_unix(sudo:session): session opened for user msfadmin by (uid=0)
+Feb 17 06:25:01 metasploitable sudo: pam_unix(sudo:session): session closed for user msfadmin
+Feb 17 06:39:01 metasploitable CRON[5182]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 17 06:39:01 metasploitable CRON[5182]: pam_unix(cron:session): session closed for user root
+Feb 17 06:40:07 metasploitable CRON[5099]: pam_unix(cron:session): session closed for user root
+
