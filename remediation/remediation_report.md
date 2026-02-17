@@ -28,7 +28,7 @@ root  5412  0.0  0.0  3004  752 tty1  R+  06:55  0:00 grep vsftpd
 root@metasploitable:~# kill -9 4502
 ```
 
-📸 **Screenshot:** [`evidence/screenshots/04_port21_kill_xinetd.png`](../evidence/screenshots/04_port21_kill_xinetd.png)
+![port21_kill_xinetd](../evidence/screenshots/04_port21_kill_xinetd.png)
 
 **Verification:**
 ```bash
@@ -75,7 +75,7 @@ PORT     STATE  SERVICE
 21/tcp   closed ftp
 ```
 
-📸 **Screenshot:** [`evidence/screenshots/05_nmap_port21_closed.png`](../evidence/screenshots/05_nmap_port21_closed.png)
+![nmap_port21_closed](../evidence/screenshots/05_nmap_port21_closed.png)
 
 Port 21 state changed from `open` → `closed`. However, a `closed` port still responds to TCP probes (with RST), meaning a service could be restarted. A deeper fix using firewall rules was applied next.
 
@@ -101,8 +101,8 @@ Chain OUTPUT (policy ACCEPT)
 target     prot opt source               destination
 ```
 
-📸 **Screenshot:** [`evidence/screenshots/06_iptables_drop_rule.png`](../evidence/screenshots/06_iptables_drop_rule.png)  
-📸 **Screenshot:** [`evidence/screenshots/07_iptables_verified_filtered.png`](../evidence/screenshots/07_iptables_verified_filtered.png)
+![iptables_drop_rule](../evidence/screenshots/06_iptables_drop_rule.png)  
+![iptables_verified_filtered](../evidence/screenshots/07_iptables_verified_filtered.png)
 
 ---
 
@@ -131,7 +131,7 @@ msf exploit(unix/ftp/vsftpd_234_backdoor) > exploit
 [-] Exploit completed, but no session was created.
 ```
 
-📸 **Screenshot:** [`evidence/screenshots/08_exploit_failed_after_remediation.png`](../evidence/screenshots/08_exploit_failed_after_remediation.png)
+![exploit_failed_after_remediation](../evidence/screenshots/08_exploit_failed_after_remediation.png)
 
 ✅ **Remediation verified and confirmed effective.**
 
