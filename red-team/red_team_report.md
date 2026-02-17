@@ -22,7 +22,7 @@ nmap -sS -A -T4 -o /home/venkat/projects/devTown/nmapscan.txt 10.63.233.95
 
 ### 1.2 Scan Results Summary
 
-Full scan results are in [`evidence/logs/nmapscan.txt`](../evidence/logs/nmapscan.txt).
+Full scan results are in ![`evidence/logs/nmapscan.txt`](../evidence/logs/nmapscan.txt).
 
 **Key open ports identified:**
 
